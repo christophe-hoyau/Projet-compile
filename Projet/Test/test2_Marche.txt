@@ -1,0 +1,29 @@
+with Ada.Text_IO ;  use Ada.Text_IO ;
+
+procedure Mon_Programme is
+
+   procedure Ma_Procedure (Param1 : in Integer; Param2 : Boolean) is
+   begin
+
+    test := 42;
+   end MaProcedure ;
+   function Ma_Fonction (Param : Character) return Integer is
+   begin
+   
+      return 4 ;
+   end Ma_Fonction;
+
+   type Mon_Type is record
+      Champ1 : Integer;
+      Champ2 : Character;
+   end record;
+
+   Variable : Mon_Type;
+
+begin
+
+
+   Ma_Procedure(42, 43);
+
+
+end Mon_Programme;

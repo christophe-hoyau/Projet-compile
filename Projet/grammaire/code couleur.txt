@@ -1,0 +1,4 @@
+RED : mauvais nom d'identifiant
+GREEN : pas le bon token reconnus
+BLUE : manque ; pour la fin de ligne
+
